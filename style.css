@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+    
+}
+
+#Titulo{
+    margin-top: 150px;
+    margin-left: 35px;
+    font-size: 75px;
+    
+}
+
+#Subtitulo{
+    margin-left: 35px;
+    margin-top:  20px;
+    margin-bottom: 85px;
+    font-size: 25px;
+
+}
+
+#MenuSuperior{
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 50px;
+    
+}
+
+#MenuInformacional{
+    background-color: #F9F9F9;
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.tituloinformativo{
+    margin: 85px 0px 35px 160px;
+    font-size: 50px;
+}
+
+.textoinformativo{
+    margin: -35px 0px 70px 160px;
+    font-size: 25px;
+}
+
+#MenuExperiencia{
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    margin-bottom: 0px;
+
+}
+ 
+#tituloexperiencia{
+    margin: 20px 0px 35px 100px;
+    font-size: 54px;
+
+}
+
+#textoexperiencia{
+    margin: 65px 0px 100px 100px;
+    font-size: 32px;
+}
+
+#imagemarquitetura{
+    margin: 110px -100px 100px 22px;
+    Width: 610px;
+    Height: 710px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    color: #F9F9F9;
+}
+
+#tituloformulario{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+
+}
+
+input{
+    Width: 460px;
+    Height: 60px;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding-left: 22px;
+    font-size: 20px;
+    color: #0000004D;
+}
+button{
+    background-color: #c07212;
+    Width: 286px;
+    Height: 74px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 28px;
+    cursor:pointer;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
